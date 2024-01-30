@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "../assets/variables.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  box-sizing: border-box;
+  line-height: 140%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+p {
+  line-height: 160%;
+}
+
+img {
+  width: 100%;
+}
+
+img.arrow {
+  width: 27px;
+  margin: 0 0 0 12px;
+}
+
+p {
+  margin: 0;
+}
+
+.p5-sketch {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0;
+  height: 50vh;
+  width: 80%;
+
+}
+
+.big-button {
+  background-color: $lightGrey;
+  border: 1px solid $black;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+canvas {
+  border: 1px solid $black;
+  cursor: pointer;
+  background-color: white;
+}

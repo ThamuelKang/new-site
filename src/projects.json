@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Remind me later",
+        "description": "Bookmark anywhere in payflow and pick up where they left off via magic link through email.",
+        "category": "E-commerce, Checkout",
+        "company": "Indiegogo",
+        "link": "Lobby",
+        "image": "https://duckbutt.sirv.com/Images/product/remind.png"
+    },
+    {
+        "id": 2,
+        "title": "Swiss Poster Generator",
+        "description": "Easily create a poster inspired by Swiss grid layout. I designed & developed it!",
+        "category": "Creative coding",
+        "company": "Personal Project",
+        "link": "Lobby",
+        "image": "https://duckbutt.sirv.com/Images/product/poster.png"
+    },
+    {
+        "id": 3,
+        "title": "GetCensus Sync Alerts",
+        "description": "Alert users when there is an invalid/rejected sync through preventative and reactive measures.",
+        "category": "BI tool, Reverse ETL",
+        "company": "Get Census",
+        "link": "Lobby",
+        "image": "https://duckbutt.sirv.com/Images/product/one-click.png"
+    }
+]
