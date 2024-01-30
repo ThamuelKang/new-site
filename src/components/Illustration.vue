@@ -13,7 +13,7 @@
         <teleport to="#modal">
             <div v-if="modal" class="modal">
                 <div class="modal-container">
-                    <button class="close-button" @click="closeModal"><img src="src/assets/icons/close.svg" alt="close modal"></button>
+                    <button class="close-button" @click="closeModal"><img src="@/assets/icons/close.svg" alt="close modal"></button>
                     <img :src="selectedIllustration.image" alt="Project image" class="project-image">
                     <div class="description">
                         <h3>{{ selectedIllustration.title }}</h3>

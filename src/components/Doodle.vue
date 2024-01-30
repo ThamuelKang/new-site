@@ -26,10 +26,10 @@
                             @click="selectSize(size.id)">●</button>
                     </div>
                     <div class="canvas-controls">
-                        <button id="clearButton"><img class="button-icons" src="../assets/icons/clear.svg"
+                        <button id="clearButton"><img class="button-icons" src="@/assets/icons/clear.svg"
                                 alt="clear canvas">
                             Clear </button>
-                        <button id="saveButton"><img class="button-icons" src="../assets/icons/save.svg"
+                        <button id="saveButton"><img class="button-icons" src="@/assets/icons/save.svg"
                                 alt="download canvas">Download</button>
                     </div>
 
