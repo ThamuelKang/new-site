@@ -12,7 +12,7 @@ import router from './router';
 </template>
 
 <style lang="scss" >
-@import './assets/variables.scss';
+@import '@/assets/variables.scss';
 
 // main {
 //   height: 100vh;

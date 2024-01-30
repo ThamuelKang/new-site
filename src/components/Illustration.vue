@@ -28,7 +28,7 @@
 </template>
   
 <script>
-import illustrationData from '../illustrations.json';
+import illustrationData from '@/illustrations.json';
 export default {
     data() {
         return {

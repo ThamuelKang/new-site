@@ -23,11 +23,11 @@
 
 
 <script>
-import Doodle from '../components/Doodle.vue'
-import Project from '../components/Project.vue'
-import Illustration from '../components/Illustration.vue'
-import Nav from '../components/Nav.vue'
-import Header from '../components/Header.vue'
+import Doodle from '@/components/Doodle.vue'
+import Project from '@/components/Project.vue'
+import Illustration from '@/components/Illustration.vue'
+import Nav from '@/components/Nav.vue'
+import Header from '@/components/Header.vue'
 
 
 
@@ -45,7 +45,7 @@ export default {
   
 
 <style lang = "scss" scoped>
-@import "../assets/variables.scss";
+@import "@/assets/variables.scss";
 
 .illustrator-container {
   display: flex;

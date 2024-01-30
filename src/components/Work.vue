@@ -21,7 +21,7 @@
   
 
 <script>
-import projectData from '../projects.json'
+import projectData from '@/projects.json'
 
 export default {
   data() {
@@ -34,7 +34,7 @@ export default {
 
 
 <style lang="scss" scoped>
-@import "../assets/variables.scss";
+@import "@/assets/variables.scss";
 
 
 .work {
