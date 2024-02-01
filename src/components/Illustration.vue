@@ -2,7 +2,7 @@
     <div>
         <div class="work" v-for="illustration in illustrations" :key="illustration.id">
             <button class="work" @click="selectIllustration(illustration)">
-                <img :src="illustration.image" alt="Project image" class="project-image">
+                <img :src="require('@/assets/' + illustration.image)" alt="Project image" class="project-image">
                 <div class="project">
                     <h3>{{ illustration.title }}</h3>
                     <p>{{ illustration.medium }}</p>
