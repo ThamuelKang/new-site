@@ -14,21 +14,6 @@ import router from './router';
 <style lang="scss" >
 @import '@/assets/variables.scss';
 
-// main {
-//   height: 100vh;
-//   width: 100vw;
-//   display: flex;
-//   overflow: hidden;
-// }
-
-// nav {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-between;
-//   height: 100vh;
-//   padding: 12px;
-//   background-color: $lightGrey;
-// }
 
 .name {
   cursor: grab;
