@@ -13,31 +13,37 @@
 
 
         <div class="project-container">
-            <a href="" class="projects">
+            <a target="_blank" href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4"
+                class="projects">
                 <div class="project-title">
-                    <p class="project-name"> Slack Huddles IA4</p>
-                    <p class="project-category"> (A/V)</p>
+                    <p class="project-name"> <b> Slack Huddles IA4 </b> (A/V)</p>
+
                 </div>
                 <p>Make huddles cute with the new IA4 design</p>
             </a>
 
-            <a href="" class="projects">
+            <a target="_blank" href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4"
+                class="projects">
                 <div class="project-title">
-                    <p class="project-name"> Slack Lists Micro-interations</p>
-                    <p class="project-category"> (Structured Data)</p>
+                    <p class="project-name"> <b>Slack Lists Micro-interations</b> (Structured Data)</p>
+
                 </div>
                 <p>Hover states, animations, interaction design, everything</p>
             </a>
 
-            <a href="" class="projects">
+            <a target="_blank" href="https://www.figma.com/proto/NiSorsReIXJ4f6vTLCWRzy/Remind-Me-Later?page-id=0%3A1&node-id=223-1152&viewport=541%2C401%2C0.02&scaling=scale-down&starting-point-node-id=223%3A1152"
+                class="projects">
                 <div class="project-title">
-                    <p class="project-name"> Indiegogo checkout experience</p>
-                    <p class="project-category"> (e-commerce)</p>
+                    <p class="project-name"> <b>Indiegogo checkout experience</b> (e-commerce)</p>
+                    
                 </div>
-                <p>Increase conversion rate through optimization, reducing friction, introducing remind me later, etc.</p>
+                <p>Increase conversion rate through optimization, reducing friction, introducing remind me later, etc.
+                </p>
             </a>
 
-            <a class="link" href="">view more ↗</a>
+            <a target="_blank" class="link"
+                href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4">view
+                more ↗</a>
         </div>
 
 
@@ -50,7 +56,7 @@ export default {
     data() {
         return {
             posX: -4,
-            posY: -40, 
+            posY: -40,
             dragging: false,
             offsetX: 0,
             offsetY: 0,
@@ -126,12 +132,25 @@ a {
 }
 
 .project-name {
-    font-weight: bold;
+    font-weight: normal;
     margin-right: 8px;
 }
 
 a:hover .project-name {
     text-decoration: underline;
     font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+    .recent-projects {
+        position: static;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .recent-projects {
+        width: 100%;
+    }
 }
 </style>

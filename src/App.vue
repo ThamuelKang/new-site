@@ -7,6 +7,7 @@ import router from './router';
 
 <template>
   <main>
+    
     <router-view />
   </main>
 </template>

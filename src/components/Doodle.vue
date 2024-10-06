@@ -131,6 +131,7 @@ div.doodle-ui {
     flex-direction: column;
     height: auto;
     width: auto;
+    flex: 1;
 }
 
 .colors {
@@ -142,23 +143,25 @@ div.doodle-ui {
     width: 40px;
     height: 40px;
     margin: 8px 24px 8px 0;
-    border-top: 1px solid #000;
-    border-right: 1px solid #000;
-    border-bottom: 2px solid #000;
-    border-left: 2px solid #000;
+    border: 1px solid #000;
     cursor: pointer;
     opacity: .48;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.24) inset;
+
 }
 
 .color-swatch.active {
     opacity: 1;
     transform: scale(1.15);
-    box-shadow: 6px -6px 0.5px 0px rgba(0, 0, 0, 0.08) inset, -4px 4px 0px 0px rgba(255, 255, 255, 0.25) inset;
+    box-shadow: none;
+
 }
 
 .color-swatch:hover {
     opacity: .9;
     transform: scale(1.15);
+    box-shadow: none;
+
 }
 
 .controls {
@@ -180,12 +183,16 @@ div.doodle-ui {
     justify-content: center;
     align-content: center;
     opacity: .48;
+    border: 1px solid black;
+
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.24) inset;
+
 }
 
 .brush-thickness.active {
     opacity: 1;
     transform: scale(1.15);
-    box-shadow: 6px -6px 0.5px 0px rgba(0, 0, 0, 0.08) inset, -4px 4px 0px 0px rgba(255, 255, 255, 0.25) inset;
+    box-shadow: none;
 }
 
 .canvas-controls {

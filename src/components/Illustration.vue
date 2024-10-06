@@ -2,7 +2,8 @@
     <div>
         <div class="work" v-for="illustration in illustrations" :key="illustration.id">
             <button class="work" @click="selectIllustration(illustration)">
-                <img :src="illustration.image" alt="Project image" class="project-image">
+                <img loading="lazy" decoding="async" :src="illustration.image" alt="Project image"
+                    class="project-image">
                 <div class="project">
                     <h3>{{ illustration.title }}</h3>
                     <p>{{ illustration.medium }}</p>
@@ -13,7 +14,8 @@
         <teleport to="#modal">
             <div v-if="modal" class="modal">
                 <div class="modal-container">
-                    <button class="close-button" @click="closeModal"><img src="@/assets/icons/close.svg" alt="close modal"></button>
+                    <button class="close-button" @click="closeModal"><img src="@/assets/icons/close.svg"
+                            alt="close modal"></button>
                     <img :src="selectedIllustration.image" alt="Project image" class="project-image">
                     <div class="description">
                         <h3>{{ selectedIllustration.title }}</h3>
@@ -26,7 +28,7 @@
 
     </div>
 </template>
-  
+
 <script>
 import illustrationData from '@/illustrations.json';
 export default {
@@ -37,6 +39,7 @@ export default {
             selectedIllustration: null,
         };
     },
+
     methods: {
         selectIllustration(illustration) {
             this.selectedIllustration = illustration;
@@ -87,7 +90,7 @@ export default {
 
 .modal-background {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.64);
     position: absolute;
     z-index: 998;
@@ -97,13 +100,14 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    max-height: 85vh;
+    width: auto;
+    max-width: 90vw;
+    max-height: 80vh;
 }
 
 .modal-container>.description {
     display: flex;
-    width:auto;
+    width: auto;
     justify-content: space-between;
     align-content: center;
     margin: 16px 0 0 0;
@@ -120,7 +124,8 @@ export default {
     border: none;
     font-family: inherit;
     text-align: left;
-    padding: 0;     
+    padding: 0;
+
 }
 
 .work p {
@@ -149,7 +154,7 @@ export default {
 
 .close-button {
     position: absolute;
-    right: -40px;
+    right: -1px;
     top: -1px;
     padding: 8px;
     height: 34px;
@@ -162,9 +167,30 @@ export default {
     background-color: $lightGrey;
     cursor: pointer;
 }
+
 .close-button img {
     height: 16px;
     width: 16px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .work {
+        width: auto;
+    }
+
+    .work img {
+        height: 400px;
+        width: auto;
+    }
+
+    .project {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .project p {
+        text-align: left;
+    }
+}
 </style>
-    

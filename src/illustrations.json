@@ -16,70 +16,83 @@
         "title": "Golden Gate Park Painting",
         "medium": "Acrylic paint on wood 8 x 12",
         "image": "assets/illustrations/golden-painting.png"
-    },   {
+    },
+    {
         "id": 4,
-        "title": "This is fine",
+        "title": "This is Fine",
         "medium": "Procreate",
         "image": "assets/illustrations/this-is-fine.png"
-    },   {
+    },
+    {
         "id": 5,
+        "title": "House painting SF",
+        "medium": "Illustrator",
+        "image": "assets/illustrations/house-painting.png"
+    },
+    {
+        "id": 6,
         "title": "Indiegogo Shirt Design",
         "medium": "Photoshop, Illustrator",
-        "image": "assets/illustrations/indiegogo-shirt.png"
-    },   {
-        "id": 6,
+        "image": "assets/illustrations/indiegogo.png"
+    },
+    {
+        "id": 7,
         "title": "The Kiss (Duck)",
         "medium": "Procreate, Photoshop",
         "image": "assets/illustrations/duck-klimt.png"
-    },   {
-        "id": 7,
+    },
+    {
+        "id": 8,
         "title": "Melting Ducks",
         "medium": "Procreate, Photoshop",
         "image": "/assets/illustrations/fire.png"
-    },   {
-        "id": 8,
+    },
+    {
+        "id": 9,
         "title": "Golden Gate Park Painting 2",
         "medium": "Acrylic on wood. 8 x 12",
         "image": "assets/illustrations/golden-lake-painting.png"
-    },   {
-        "id": 9,
+    },
+    {
+        "id": 10,
         "title": "SF Landscape",
         "medium": "Acrylic on 3 wood panels – 24 x 24 each",
         "image": "assets/illustrations/sf-landscape.png"
-    },   {
-        "id": 10,
-        "title": "Indiegogo Lunar New Year",
-        "medium": "Procreate, Photoshop, Illustrator",
-        "image": "assets/illustrations/indiegogo-CNY.png"
-    },   {
+    },
+    {
         "id": 11,
+        "title": "Indiegogo Lunar New Year",
+        "medium": "Photoshop, Illustrator",
+        "image": "assets/illustrations/indiegogo-CNY.png"
+    },
+    {
+        "id": 12,
         "title": "Self Portrait",
         "medium": "Procreate",
         "image": "assets/illustrations/self-portrait.png"
-    },   {
-        "id": 12,
+    },
+    {
+        "id": 13,
         "title": "Hand Lettering",
         "medium": "Procreate",
         "image": "assets/illustrations/fun-lettering.png"
-    },   {
-        "id": 13,
+    },
+    {
+        "id": 14,
         "title": "Eyes on Ducks",
         "medium": "Procreate",
         "image": "assets/illustrations/eyes-duck.png"
-    },   {
-        "id": 14,
+    },
+    {
+        "id": 16,
         "title": "Dreamy",
         "medium": "Procreate",
         "image": "assets/illustrations/dreamy.png"
-    },   {
-        "id": 15,
+    },
+    {
+        "id": 16,
         "title": "What a view (Duck)",
         "medium": "Procreate",
         "image": "assets/illustrations/duck-view.png"
-    },   {
-        "id": 16,
-        "title": "Survival of the Prettiest pt. 3",
-        "medium": "Acrylic on wood. 16 x 24",
-        "image": "assets/illustrations/survival-painting.png"
     }
 ]

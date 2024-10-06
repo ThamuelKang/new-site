@@ -85,4 +85,22 @@ export default {
     max-width: 150px;
     margin-bottom: 16px;
 }
+
+@media only screen and (max-width: 800px) {
+    .introduction {
+        position: static;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .introduction {
+        width: 100%;
+    }
+
+    p {
+        max-width: 400px;
+        text-align: center;
+    }
+}
 </style>
