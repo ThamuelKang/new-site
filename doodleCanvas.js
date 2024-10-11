@@ -11,7 +11,6 @@ function setup() {
     let canvasHeight = mainContainerHeight.offsetHeight / 1.9; // Get the height of the container
 
     canvas = createCanvas(canvasWidth, canvasHeight);
-    console.log()
     canvas.parent('p5Sketch');
 
 
