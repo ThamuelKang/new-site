@@ -125,7 +125,7 @@ export default {
     font-family: inherit;
     text-align: left;
     padding: 0;
-
+    color: $black;
 }
 
 .work p {
@@ -180,7 +180,7 @@ export default {
     }
 
     .work img {
-        height: 400px;
+        height: 70vw;
         width: auto;
     }
 
