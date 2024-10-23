@@ -30,7 +30,7 @@
                                 alt="clear canvas">
                             Clear </button>
                         <button id="saveButton"><img class="button-icons" src="@/assets/icons/save.svg"
-                                alt="download canvas">Download</button>
+                                alt="download canvas">Download testing</button>
                     </div>
 
                 </div>
