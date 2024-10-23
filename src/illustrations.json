@@ -3,96 +3,112 @@
         "id": 1,
         "title": "Duck with pearl earrings",
         "medium": "Procreate",
-        "image": "assets/illustrations/pearl.png"
+        "image": "assets/illustrations/pearl.png",
+        "small": "assets/illustrations/small/pearl.png" 
     },
     {
         "id": 2,
         "title": "The Dance (Duck)",
         "medium": "Procreate",
-        "image": "assets/illustrations/dance-duck.png"
+        "image": "assets/illustrations/dance-duck.png",
+        "small": "assets/illustrations/small/dance-duck.png"
     },
     {
         "id": 3,
         "title": "Golden Gate Park Painting",
         "medium": "Acrylic paint on wood 8 x 12",
-        "image": "assets/illustrations/golden-painting.png"
+        "image": "assets/illustrations/golden-painting.png",
+        "small": "assets/illustrations/small/golden-painting.png"
     },
     {
         "id": 4,
         "title": "This is Fine",
         "medium": "Procreate",
-        "image": "assets/illustrations/this-is-fine.png"
+        "image": "assets/illustrations/this-is-fine.png",
+        "small": "assets/illustrations/small/this-is-fine.png"
     },
     {
         "id": 5,
         "title": "House painting SF",
         "medium": "Illustrator",
-        "image": "assets/illustrations/house-painting.png"
+        "image": "assets/illustrations/house-painting.png",
+        "small": "assets/illustrations/small/house-painting.png"
     },
     {
         "id": 6,
         "title": "Indiegogo Shirt Design",
         "medium": "Photoshop, Illustrator",
-        "image": "assets/illustrations/indiegogo.png"
+        "image": "assets/illustrations/indiegogo.png",
+        "small": "assets/illustrations/small/indiegogo-shirt.png"
     },
     {
         "id": 7,
         "title": "The Kiss (Duck)",
         "medium": "Procreate, Photoshop",
-        "image": "assets/illustrations/duck-klimt.png"
+        "image": "assets/illustrations/duck-klimt.png",
+        "small": "assets/illustrations/small/duck-klimt.png"
     },
     {
         "id": 8,
         "title": "Melting Ducks",
         "medium": "Procreate, Photoshop",
-        "image": "/assets/illustrations/fire.png"
+        "image": "/assets/illustrations/fire.png",
+        "small": "assets/illustrations/small/fire.png"
     },
     {
         "id": 9,
         "title": "Golden Gate Park Painting 2",
         "medium": "Acrylic on wood. 8 x 12",
-        "image": "assets/illustrations/golden-lake-painting.png"
+        "image": "assets/illustrations/golden-lake-painting.png",
+        "small": "assets/illustrations/small/golden-lake-painting.png"
     },
     {
         "id": 10,
         "title": "SF Landscape",
         "medium": "Acrylic on 3 wood panels – 24 x 24 each",
-        "image": "assets/illustrations/sf-landscape.png"
+        "image": "assets/illustrations/sf-landscape.png",
+        "small": "assets/illustrations/small/sf-landscape.png"
     },
     {
         "id": 11,
         "title": "Indiegogo Lunar New Year",
         "medium": "Photoshop, Illustrator",
-        "image": "assets/illustrations/indiegogo-CNY.png"
+        "image": "assets/illustrations/indiegogo.png",
+        "small": "assets/illustrations/small/indeigogo.png"
     },
     {
         "id": 12,
         "title": "Self Portrait",
         "medium": "Procreate",
-        "image": "assets/illustrations/self-portrait.png"
+        "image": "assets/illustrations/self-portrait.png",
+        "small": "assets/illustrations/small/self-portrait.png"
     },
     {
         "id": 13,
         "title": "Hand Lettering",
         "medium": "Procreate",
-        "image": "assets/illustrations/fun-lettering.png"
+        "image": "assets/illustrations/fun-lettering.png",
+        "small": "assets/illustrations/small/fun-lettering.png"
     },
     {
         "id": 14,
         "title": "Eyes on Ducks",
         "medium": "Procreate",
-        "image": "assets/illustrations/eyes-duck.png"
+        "image": "assets/illustrations/eyes-duck.png",
+        "small": "assets/illustrations/small/eyes-duck.png"
     },
     {
         "id": 16,
         "title": "Dreamy",
         "medium": "Procreate",
-        "image": "assets/illustrations/dreamy.png"
+        "image": "assets/illustrations/dreamy.png",
+        "small": "assets/illustrations/small/dreamy.png"
     },
     {
         "id": 16,
         "title": "What a view (Duck)",
         "medium": "Procreate",
-        "image": "assets/illustrations/duck-view.png"
+        "image": "assets/illustrations/duck-view.png",
+        "small": "assets/illustrations/small/duck-view.png"
     }
 ]

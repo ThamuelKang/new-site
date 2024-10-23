@@ -96,6 +96,11 @@ section.work {
     flex-direction: column;
   }
 
+  header.hero {
+    padding: 24px;
+    order: 3;
+  }
+
   .main-intro {
     height: auto;
     overflow-y: hidden;

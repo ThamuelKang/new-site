@@ -11,10 +11,8 @@
         </div>
 
         <div class="info">
-            <router-link to="/">
-                <lottie-player src="https://lottie.host/f7548d04-67e4-47c6-a9e6-514072d122d2/qOTYGCmLLW.json"
-                    background="transparent" speed="1" class="logo" loop autoplay></lottie-player>
-            </router-link>
+            <lottie-player src="https://lottie.host/f7548d04-67e4-47c6-a9e6-514072d122d2/qOTYGCmLLW.json"
+                background="transparent" speed="1" class="logo" loop autoplay></lottie-player>
 
             <p>is a <del>duck</del> definitely human currently working at <a class="link" href="https://slack.com/"
                     target="blank"><b>Slack</b></a> as a Senior Product
@@ -66,6 +64,7 @@ export default {
 
 .introduction {
     width: 300px;
+    height: 100% !important;
     border: solid 1px $black;
     position: relative;
     background-color: $white;

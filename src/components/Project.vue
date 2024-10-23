@@ -13,22 +13,22 @@
 
 
         <div class="project-container">
-            <a target="_blank" href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4"
+            <a target="_blank" href="https://slack.com/help/articles/4402059015315-Use-huddles-in-Slack"
                 class="projects">
                 <div class="project-title">
                     <p class="project-name"> <b> Slack Huddles IA4 </b> (A/V)</p>
 
                 </div>
-                <p>Make huddles cute with the new IA4 design</p>
+                <p>New features like Jukebox (elevator music), Troubleshooting panel, new entrypoint, etc.</p>
             </a>
 
-            <a target="_blank" href="https://gem-stitch-684.notion.site/Case-studies-coming-soon-8d8a72fd1edb44bab2c6a942cf03cace?pvs=4"
+            <a target="_blank" href="https://slack.com/help/articles/27452748828179-Use-lists-in-Slack  "
                 class="projects">
                 <div class="project-title">
-                    <p class="project-name"> <b>Slack Lists Micro-interations</b> (Structured Data)</p>
+                    <p class="project-name"> <b>Slack Lists</b> (Structured Data)</p>
 
                 </div>
-                <p>Hover states, animations, interaction design, everything</p>
+                <p>I designed the icon/logo! Also... hover states, animations, interaction design, color design, lots of quality of life stuff</p>
             </a>
 
             <a target="_blank" href="https://www.figma.com/proto/NiSorsReIXJ4f6vTLCWRzy/Remind-Me-Later?page-id=0%3A1&node-id=223-1152&viewport=541%2C401%2C0.02&scaling=scale-down&starting-point-node-id=223%3A1152"
@@ -55,7 +55,7 @@ export default {
     name: 'Project',
     data() {
         return {
-            posX: -4,
+            posX: 40,
             posY: -40,
             dragging: false,
             offsetX: 0,
@@ -92,8 +92,6 @@ export default {
 
 .recent-projects {
     position: relative;
-    height: 300px;
-    overflow: auto;
 
     display: flex;
     flex-direction: column;
@@ -137,6 +135,11 @@ a {
 }
 
 a:hover .project-name {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.link:hover {
     text-decoration: underline;
     font-style: italic;
 }

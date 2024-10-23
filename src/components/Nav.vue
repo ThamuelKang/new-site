@@ -52,8 +52,6 @@ a:hover {
 
 .contact-details {
     margin: 48px 0 0 0;
-    font-family: "Comic Neue", cursive;
-    font-weight: 700;
     transform: rotate(-5deg);
     text-align: center;
     font-style: italic;
@@ -69,14 +67,13 @@ a:hover {
         display: flex;
         flex-direction: row;
         gap: 24px;
+        justify-content: center;
     }
 
     .contact-details {
         margin: 0;
         font-family: 'IBM Plex Mono', monospace;
         transform: rotate(0);
-        font-weight: 400;
-        text-align: left;
     }
 }
 

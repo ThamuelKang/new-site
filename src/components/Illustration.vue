@@ -2,7 +2,7 @@
     <div>
         <div class="work" v-for="illustration in illustrations" :key="illustration.id">
             <button class="work" @click="selectIllustration(illustration)">
-                <img loading="lazy" decoding="async" :src="illustration.image" alt="Project image"
+                <img loading="lazy" decoding="async" :src="illustration.small" alt="Project image"
                     class="project-image">
                 <div class="project">
                     <h3>{{ illustration.title }}</h3>
@@ -16,7 +16,7 @@
                 <div class="modal-container">
                     <button class="close-button" @click="closeModal"><img src="@/assets/icons/close.svg"
                             alt="close modal"></button>
-                    <img :src="selectedIllustration.image" alt="Project image" class="project-image">
+                    <img loading="lazy" :src="selectedIllustration.image" alt="Project image" class="project-image">
                     <div class="description">
                         <h3>{{ selectedIllustration.title }}</h3>
                         <p>{{ selectedIllustration.medium }}</p>
