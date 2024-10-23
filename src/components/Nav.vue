@@ -16,7 +16,7 @@
         </div>
 
 
-        <p class="contact-details">Doodle me a duck and email it at samuel.kang.ducks [at] gmail.com</p>
+        <p class="contact-details">Doodle me a duck and email it at samuel.june.kang [at] gmail.com</p>
     </nav>
 </template>
 
