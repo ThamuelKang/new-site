@@ -14,7 +14,7 @@
             <lottie-player src="https://lottie.host/f7548d04-67e4-47c6-a9e6-514072d122d2/qOTYGCmLLW.json"
                 background="transparent" speed="1" class="logo" loop autoplay></lottie-player>
 
-            <p>is <del>a duck</del> definitely human currently working at <a class="link" href="https://slack.com/"
+            <p>is <del>a duck</del> definitely h00man currently working at <a class="link" href="https://slack.com/"
                     target="blank"><b>Slack</b></a> as a Senior Product
                 Designer.</p>
         </div>
