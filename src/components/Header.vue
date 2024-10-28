@@ -1,5 +1,5 @@
 <template>
-    <header :style="{ left: posX + 'px', top: posY + 'px' }" class="introduction">
+    <header :style="{ left: posX + 'px', top: posY + 'px' }" id="introduction" class="introduction">
         <div @mousedown="startDrag" class="name">
             <div class="line"> </div>
             <div class="line"> </div>
@@ -39,6 +39,8 @@ export default {
             this.offsetX = event.clientX - this.posX;
             this.offsetY = event.clientY - this.posY;
 
+            brushThickness = 0           
+
             document.addEventListener('mousemove', this.drag);
             document.addEventListener('mouseup', this.stopDrag);
         },
@@ -46,12 +48,17 @@ export default {
             if (this.dragging) {
                 this.posX = event.clientX - this.offsetX;
                 this.posY = event.clientY - this.offsetY;
+
             }
         },
         stopDrag() {
             this.dragging = false;
+
+            brushThickness = 8           
+
             document.removeEventListener('mousemove', this.drag);
             document.removeEventListener('mouseup', this.stopDrag);
+
         },
     },
 };

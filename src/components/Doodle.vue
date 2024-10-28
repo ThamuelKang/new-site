@@ -76,6 +76,7 @@ export default {
 
             document.addEventListener('mousemove', this.drag);
             document.addEventListener('mouseup', this.stopDrag);
+            
         },
         drag(event) {
             if (this.dragging) {

@@ -12,7 +12,7 @@
         </div>
 
 
-        <div class="project-container">
+        <div class="project-container" id="projectContainer">
             <a target="_blank" href="https://slack.com/help/articles/4402059015315-Use-huddles-in-Slack"
                 class="projects">
                 <div class="project-title">
@@ -28,14 +28,16 @@
                     <p class="project-name"> <b>Slack Lists</b> (Structured Data)</p>
 
                 </div>
-                <p>I designed the icon/logo! Also... hover states, animations, interaction design, color design, lots of quality of life stuff</p>
+                <p>I designed the icon/logo! Also... hover states, animations, interaction design, color design, lots of
+                    quality of life stuff</p>
             </a>
 
-            <a target="_blank" href="https://www.figma.com/proto/NiSorsReIXJ4f6vTLCWRzy/Remind-Me-Later?page-id=0%3A1&node-id=223-1152&viewport=541%2C401%2C0.02&scaling=scale-down&starting-point-node-id=223%3A1152"
+            <a target="_blank"
+                href="https://www.figma.com/proto/NiSorsReIXJ4f6vTLCWRzy/Remind-Me-Later?page-id=0%3A1&node-id=223-1152&viewport=541%2C401%2C0.02&scaling=scale-down&starting-point-node-id=223%3A1152"
                 class="projects">
                 <div class="project-title">
                     <p class="project-name"> <b>Indiegogo checkout experience</b> (e-commerce)</p>
-                    
+
                 </div>
                 <p>Increase conversion rate through optimization, reducing friction, introducing remind me later, etc.
                 </p>
@@ -64,6 +66,8 @@ export default {
     },
     methods: {
         startDrag(event) {
+            brushThickness = 0;
+
             this.dragging = true;
             this.offsetX = event.clientX - this.posX;
             this.offsetY = event.clientY - this.posY;
@@ -78,7 +82,8 @@ export default {
             }
         },
         stopDrag() {
-            this.dragging = false;
+            brushThickness = 8           
+
             document.removeEventListener('mousemove', this.drag);
             document.removeEventListener('mouseup', this.stopDrag);
         },
