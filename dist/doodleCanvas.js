@@ -145,8 +145,6 @@ function changeBlack() {
     }
 }
 
-
-
 function changeSmall() {
     brushThickness = 4
 }

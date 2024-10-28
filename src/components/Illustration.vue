@@ -135,6 +135,7 @@ export default {
 .work:hover {
     text-decoration: underline;
     font-style: italic;
+    color: $blue;
     cursor: pointer;
     opacity: .9;
 }
