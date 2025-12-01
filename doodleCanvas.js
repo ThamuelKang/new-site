@@ -4,8 +4,15 @@ let brushThickness = 8
 function setup() {
     pixelDensity(4);
 
+    // Wait for DOM elements to be available
     let canvasContainerWidth = document.getElementById('canvasContainer');
     let mainContainerHeight = document.getElementById('mainContainerHeight');
+
+    // If elements don't exist yet, wait and try again
+    if (!canvasContainerWidth || !mainContainerHeight) {
+        setTimeout(setup, 100);
+        return;
+    }
 
     let canvasWidth = canvasContainerWidth.offsetWidth - 112; // Get the width of the container
     let canvasHeight = mainContainerHeight.offsetHeight / 1.9; // Get the height of the container
@@ -14,44 +21,45 @@ function setup() {
     canvas.parent('p5Sketch');
 
 
+    // Set up button event listeners with safety checks
     redButton = select('#red');
-    redButton.mousePressed(changeRed);
+    if (redButton) redButton.mousePressed(changeRed);
 
     orangeButton = select('#orange')
-    orangeButton.mousePressed(changeOrange)
+    if (orangeButton) orangeButton.mousePressed(changeOrange)
 
     yellowButton = select('#yellow')
-    yellowButton.mousePressed(changeYellow)
+    if (yellowButton) yellowButton.mousePressed(changeYellow)
 
     greenButton = select('#green')
-    greenButton.mousePressed(changeGreen)
+    if (greenButton) greenButton.mousePressed(changeGreen)
 
     whiteButton = select('#white')
-    whiteButton.mousePressed(changeWhite)
+    if (whiteButton) whiteButton.mousePressed(changeWhite)
 
     blueButton = select('#blue')
-    blueButton.mousePressed(changeBlue)
+    if (blueButton) blueButton.mousePressed(changeBlue)
 
     purpleButton = select('#purple')
-    purpleButton.mousePressed(changePurple)
+    if (purpleButton) purpleButton.mousePressed(changePurple)
 
     blackButton = select('#black')
-    blackButton.mousePressed(changeBlack)
+    if (blackButton) blackButton.mousePressed(changeBlack)
 
     saveButton = select('#saveButton')
-    saveButton.mousePressed(saveImage);
+    if (saveButton) saveButton.mousePressed(saveImage);
 
     clearButton = select('#clearButton')
-    clearButton.mousePressed(clearCanvas)
+    if (clearButton) clearButton.mousePressed(clearCanvas)
 
     smallBrushButton = select('#small')
-    smallBrushButton.mousePressed(changeSmall)
+    if (smallBrushButton) smallBrushButton.mousePressed(changeSmall)
 
     mediumBrushButton = select('#medium')
-    mediumBrushButton.mousePressed(changeMedium)
+    if (mediumBrushButton) mediumBrushButton.mousePressed(changeMedium)
 
     BigBrushButton = select('#big')
-    BigBrushButton.mousePressed(changeBig)
+    if (BigBrushButton) BigBrushButton.mousePressed(changeBig)
 
     background('#FFFFFF');
 
