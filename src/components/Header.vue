@@ -15,7 +15,7 @@
                 background="transparent" speed="1" class="logo" loop autoplay></lottie-player>
 
             <p>is <del>a duck</del> definitely h00man currently working at <a class="link" href="https://slack.com/"
-                    target="blank"><b>Samuel Kang</b></a> as a ProDUCKt
+                    target="blank"><b>Slack</b></a> as a ProDUCKt
                 Designer.</p>
         </div>
     </header>
